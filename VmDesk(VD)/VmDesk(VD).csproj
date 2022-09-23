@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{08AEA4CF-AC07-4580-B9EE-4FED3B6DEE3D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VmDesk_VD_</RootNamespace>
+    <AssemblyName>VmDesk%28VD%29</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="haoluan™\notopad--.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="haoluan™\notopad--.Designer.cs">
+      <DependentUpon>notopad--.cs</DependentUpon>
+    </Compile>
+    <Compile Include="system\setting\about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="system\setting\about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="system\meg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="system\meg.Designer.cs">
+      <DependentUpon>meg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="system\setting\easteggs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="system\setting\easteggs.Designer.cs">
+      <DependentUpon>easteggs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="system\setting\main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="system\setting\main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="system\taskmgr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="system\taskmgr.Designer.cs">
+      <DependentUpon>taskmgr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="haoluan™\hclt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="haoluan™\hclt.designer.cs">
+      <DependentUpon>hclt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="haoluan™\hvit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="haoluan™\hvit.Designer.cs">
+      <DependentUpon>hvit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vmdesk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vmdesk.Designer.cs">
+      <DependentUpon>Vmdesk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="system\Formdows10 Desktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="system\Formdows10 Desktop.Designer.cs">
+      <DependentUpon>Formdows10 Desktop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="haoluan™\hvpf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="haoluan™\hvpf.Designer.cs">
+      <DependentUpon>hvpf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="haoluan™\hwpf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="haoluan™\hwpf.Designer.cs">
+      <DependentUpon>hwpf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="startup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startup.Designer.cs">
+      <DependentUpon>startup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="time.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="time.Designer.cs">
+      <DependentUpon>time.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formdows自带工具\没有用的便签.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formdows自带工具\没有用的便签.Designer.cs">
+      <DependentUpon>没有用的便签.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="haoluan™\notopad--.resx">
+      <DependentUpon>notopad--.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="system\setting\about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="system\meg.resx">
+      <DependentUpon>meg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="system\setting\easteggs.resx">
+      <DependentUpon>easteggs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="system\setting\main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="system\taskmgr.resx">
+      <DependentUpon>taskmgr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="haoluan™\hclt.resx">
+      <DependentUpon>hclt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="haoluan™\hvit.resx">
+      <DependentUpon>hvit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vmdesk.resx">
+      <DependentUpon>Vmdesk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="system\Formdows10 Desktop.resx">
+      <DependentUpon>Formdows10 Desktop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="haoluan™\hvpf.resx">
+      <DependentUpon>hvpf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="haoluan™\hwpf.resx">
+      <DependentUpon>hwpf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="startup.resx">
+      <DependentUpon>startup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="time.resx">
+      <DependentUpon>time.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formdows自带工具\没有用的便签.resx">
+      <DependentUpon>没有用的便签.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\屏幕截图 2022-08-15 131939.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\屏幕截图 2022-08-15 135751.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\屏幕截图 2022-08-15 141125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\屏幕截图 2022-08-15 1411251.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\743AAB53DFFB44E098A692C445688166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RUNOOB-SVG-IMAGE %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RUNOOB-SVG-IMAGE %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RUNOOB-SVG-IMAGE %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RUNOOB-SVG-IMAGE %285%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
